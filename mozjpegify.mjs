@@ -5,36 +5,8 @@ import glob from 'glob';
 import imagemin from 'imagemin';
 import imageminMozjpeg from 'imagemin-mozjpeg';
 
-// Github: https://github.com/imagemin/imagemin-mozjpeg
-
-const srcdir = 'card_images/core';
-const distdir = 'card_images_done/core';
-
-/*
-spellbook // 2 MB
-arsenal // 4 MB
-premium_deck // 14 MB
-vanguard // 15 MB
-from_the_vault // 15 MB
-alchemy // 40 MB
-archenemy // 40 MB
-treasure_chest // 40 MB
-funny // 105 MB
-masterpiece // 111 MB
-token // 162 MB
-planechase // 172 MB
-starter // 321 MB
-duel_deck // 331 MB
-memorabilia // 393 MB
-box // 608 MB
-promo // 722 MB // --> failed (too many images)
-masters // 1.5 GB
-draft_innovation // 1.9 GB
-commander // 2.73 GB
-
-core // 4 GB
-expansion // 13.6 GB
-*/
+const srcdir = 'images/source';
+const distdir = 'images/dist';
 
 Main();
 
