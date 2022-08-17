@@ -11,9 +11,9 @@ Install Dependencies:
     npm i imagemin
     
     npm i imagemin-mozjpeg
-    
+
+Be sure to update the paths for srcdir (where the source images are), distdir (the destination path) variables in the code before running.
+
 Usage:
 
-    Be sure to update the paths for srcdir (where the source images are), distdir (the destination path) variables in the code before running.
-    
     node mozjpegify.mjs
