@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "glob": "^6.0.4",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "path": "^0.12.7"
+  }
+}
